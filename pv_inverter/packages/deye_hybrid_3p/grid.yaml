@@ -140,8 +140,6 @@ sensor:
     state_class: "total_increasing"
     accuracy_decimals: 1
     value_type: U_WORD
-    filters:
-      - multiply: 0.1
     icon: "mdi:transmission-tower-import"
 
   - platform: modbus_controller
@@ -155,8 +153,6 @@ sensor:
     state_class: "total_increasing"
     accuracy_decimals: 1
     value_type: U_WORD
-    filters:
-      - multiply: 0.1
     icon: "mdi:transmission-tower-export"
 
   - platform: modbus_controller
