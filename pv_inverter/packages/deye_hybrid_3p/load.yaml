@@ -124,8 +124,6 @@ sensor:
     state_class: "total_increasing"
     accuracy_decimals: 1
     value_type: U_WORD
-    filters:
-      - multiply: 0.1
     icon: "mdi:home-lightning-bolt"
 
   - platform: modbus_controller
