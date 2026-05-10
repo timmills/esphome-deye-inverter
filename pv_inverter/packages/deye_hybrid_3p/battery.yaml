@@ -54,8 +54,6 @@ sensor:
     state_class: "total_increasing"
     accuracy_decimals: 1
     value_type: U_DWORD_R
-    filters:
-      - multiply: 0.1
     icon: "mdi:battery-charging-100"
 
   - platform: modbus_controller
@@ -69,8 +67,6 @@ sensor:
     state_class: "total_increasing"
     accuracy_decimals: 1
     value_type: U_DWORD_R
-    filters:
-      - multiply: 0.1
     icon: "mdi:battery-arrow-down"
 
   - platform: modbus_controller
